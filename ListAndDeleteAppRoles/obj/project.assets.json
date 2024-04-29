@@ -5697,11 +5697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/basav/RiderProjects/FindAndDeleteAppRoles/ListAndDeleteAppRoles/ListAndDeleteAppRoles.csproj",
+      "projectUniqueName": "/Users/basav/Documents/HobbyProjects/basav-github/ListAndDeleteAppRolesAzure/ListAndDeleteAppRoles/ListAndDeleteAppRoles.csproj",
       "projectName": "ListAndDeleteAppRoles",
-      "projectPath": "/Users/basav/RiderProjects/FindAndDeleteAppRoles/ListAndDeleteAppRoles/ListAndDeleteAppRoles.csproj",
+      "projectPath": "/Users/basav/Documents/HobbyProjects/basav-github/ListAndDeleteAppRolesAzure/ListAndDeleteAppRoles/ListAndDeleteAppRoles.csproj",
       "packagesPath": "/Users/basav/.nuget/packages/",
-      "outputPath": "/Users/basav/RiderProjects/FindAndDeleteAppRoles/ListAndDeleteAppRoles/obj/",
+      "outputPath": "/Users/basav/Documents/HobbyProjects/basav-github/ListAndDeleteAppRolesAzure/ListAndDeleteAppRoles/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/basav/.nuget/NuGet/NuGet.Config"
@@ -5710,6 +5710,7 @@
         "net6.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.pkg.github.com/polestar/index.json": {}
       },
@@ -5723,6 +5724,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5758,8 +5764,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.49.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
